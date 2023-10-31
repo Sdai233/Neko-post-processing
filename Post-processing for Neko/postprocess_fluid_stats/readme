@@ -1,0 +1,15 @@
+The order for the 1st, 2nd, 4th and 5th terms are a bit messy.
+Currently they are arranged as:
+
+mean: dudx, dudy, dudz, dvdx, dvdy, dvdz, dwdx, dwdy, dwdz
+derivative1: duudy, duudx, duudz, dvvdy, dvvdx, dvvdz, dwwdx, dwwdy, dwwdz
+derivative2: duvdy, duvdx, duvdz, dvwdy, dvwdx, dvwdz, duwdx, duwdy, duwdz
+derivative3: duuudy, duuudx, duuudz, dvvvdy, dvvvdx, dvvvdz, dwwwdx, dwwwdy, dwwwdz
+derivative4: duuvdy, duuvdx, duuvdz, duuwdy, duuwdx, duuwdz, dvvudx, dvvudy, dvvudz
+derivative5: d2udy2, d2udx2, d2udz2, d2vdy2, d2vdx2, d2vdz2, d2wdx2, d2wdy2, d2wdz2
+derivative6: d2uudy2, d2uudx2, d2uudz2, d2vvdy2, d2vvdx2, d2vvdz2, d2wwdx2, d2wwdy2, d2wwdz2
+derivative7: d2uvdy2, d2uvdx2, d2uvdz2, d2uvdy2, d2uvdx2, d2uvdz2, d2vwdx2, d2vwdy2, d2vwdz2
+derivative8: dpudy, dpudx, dpudz, dpvdy, dpvdx, dpvdz, dpwdx, dpwdy, dpwdz
+derivative9: dwwudy, dwwudx, dwwudz, dwwvdy, dwwvdx, dwwvdz, duvwdx, duvwdy, duvwdz
+
+Note: the fluid_stats.f90 file under /neko/src/fluid/ should also be replaced.

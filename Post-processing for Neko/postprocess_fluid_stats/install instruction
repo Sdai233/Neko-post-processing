@@ -1,0 +1,13 @@
+The subroutine here is built based on the postprocess_fluid_stats subroutine: https://github.com/ExtremeFLOW/neko/contrib/postprocess_fluid_stats
+
+To use this postprocessing subroutine, first install the classical Neko: https://github.com/ExtremeFLOW/neko
+
+Follow the instruction of install Neko
+
+Replace the postprocess_fluid_stats file under /neko/contrib/ with the one here
+
+Replace the fluid_stats.f90 file under /neko/src/fluid/ with the one here
+
+Compile by 'make' or 'makeinstall'
+
+Instruction of using the subroutine can be found in 'readme'
